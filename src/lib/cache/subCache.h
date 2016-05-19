@@ -104,6 +104,7 @@ struct CachedSubscription
   RenderFormat                renderFormat;
   char*                       reference;
   SubscriptionExpression      expression;
+  bool                        blacklist;
 
   struct CachedSubscription*  next;
 };
